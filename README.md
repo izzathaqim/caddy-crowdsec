@@ -15,7 +15,7 @@ Module include :
 
 ```
 {
-    #global option
+	#global option
 	order crowdsec first
 	crowdsec {
 		api_url <crowdsec_url>

@@ -16,15 +16,15 @@ Module include :
 
 ```
 {
-	#global option
-	order crowdsec first
-	crowdsec {
-		api_url <crowdsec_url>
-		api_key <crowdsec_api_key>
-		ticker_interval 30s
-		#disable_streaming
-		#enable_hard_fails
-	}
+    #global option
+    order crowdsec first
+    crowdsec {
+	api_url <crowdsec_url>
+	api_key <crowdsec_api_key>
+	ticker_interval 30s
+	#disable_streaming
+	#enable_hard_fails
+    }
 }
 
 example.com {

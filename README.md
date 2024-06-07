@@ -78,7 +78,7 @@ example.com {
     #global option
 	servers {
 		trusted_proxies combine {
-        	static 10.10.10.10
+			static 10.10.10.10
         	cloudflare {
             	internal 12h
             	timeout 15s

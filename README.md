@@ -80,7 +80,7 @@ example.com {
            trusted_proxies combine {
                 static 10.10.10.10
         	cloudflare {
-            	    internal 12h
+            	    interval 12h
             	    timeout 15s
                 }
         }

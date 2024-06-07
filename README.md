@@ -61,9 +61,10 @@ example.com {
 ```
 {
     #global options
-    trusted_proxies cloudflare {
-        interval 12h
-        timeout 15s
+	servers {
+		trusted_proxies cloudflare {
+			interval 12h
+			timeout 15s
     }
 }
 ```
@@ -75,11 +76,13 @@ example.com {
 ```
 {
     #global option
-    trusted_proxies combine {
-        static 10.10.10.10
-        cloudflare {
-            internal 12h
-            timeout 15s
+	servers {
+		trusted_proxies combine {
+        	static 10.10.10.10
+        	cloudflare {
+            	internal 12h
+            	timeout 15s
+			}
         }
     }
 }

@@ -66,6 +66,7 @@ example.com {
             Interval 12h
             timeout 15s
         }
+    }
 }
 ```
 ---

@@ -77,11 +77,11 @@ example.com {
 {
     #global option
 	servers {
-           trusted_proxies combine {
-                static 10.10.10.10
-        	cloudflare {
-            	    interval 12h
-            	    timeout 15s
+		trusted_proxies combine {
+			static 10.10.10.10
+			cloudflare {
+				interval 12h
+				timeout 15s
                 }
         }
     }
